@@ -1,0 +1,64 @@
+
+body {
+  background: url("http://www.hdwallpaper.nu/wp-content/uploads/2016/05/overwatch-game-wallpaper-background-hd.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flash {
+    letter-spacing: 2px;
+    font-family: "BigNoodleTitling";
+   animation-name: flash;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: black;}
+}
+
+p {
+    font-family: "BigNoodleTitling";
+    font-size: 200%;
+    color: white;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+}
+
+.modal-body{ 
+  background: url("https://i.ytimg.com/vi/vtWTx20Lu-E/maxresdefault.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+}
+
+li{
+    color: white;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+}
+
+h5{
+    font-size: 200%;
+}
+
+h2#stats_name{
+    color:white;
+    font-family: "BigNoodleTitling";
+
+}
+
+h1{
+color: white;
+
+}

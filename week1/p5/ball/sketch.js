@@ -1,6 +1,6 @@
 function setup() {
 
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth-50, windowHeight);
     //  background(R(v:0-255), G(v:0-),B(v:0-))
     background('grey');
 

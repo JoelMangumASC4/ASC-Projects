@@ -1,0 +1,40 @@
+body{
+   
+    background-image: url("https://static1.squarespace.com/static/56d2e3538259b5396832afe3/t/56d4284d1d07c0d9a87e48fc/1456744530909/bg.png?format=2500w");
+    color: white;
+}
+.header{
+   
+height: 200%;
+  margin: -10px;
+}
+.carousel-inner{
+      position: static;
+    background: #21101B;
+width: 1280px;
+height: 400px;
+ margin: auto;
+
+}
+footer{
+
+
+}
+p{ font-size: x-large;
+
+
+}
+
+.video {
+    width: 100%;
+    height: 705;
+}
+
+.gonnerLogo{
+     width: 100%;
+}
+    .footer-brand{
+height:1%;
+
+
+    }

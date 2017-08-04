@@ -1,0 +1,65 @@
+body{
+background-image: url("2015_Basquiat_EL135.37_4000W (2).jpg");
+width: 500px;
+margin-left:800 ;
+color: #d9d9d9;
+border: 5px solid black;
+font-size: 25;
+}
+.facts{ background:#666666; }
+
+
+@media (max-width: 600px){
+     body{ 
+         width:150%; 
+        
+    } 
+    
+}
+
+@media (max-width: 400px){
+     body{ 
+         width:200%; 
+        
+    } 
+    
+}
+
+
+
+
+
+
+
+
+.Birth{
+background:  #666666;
+
+
+}
+.Childhood{
+
+background:  #666666;
+}
+
+.SAMO{
+
+background:  #666666;
+
+}
+
+.Legacy{
+background:  #666666;
+
+}
+
+.Keith{
+ width: 500px;
+}
+
+
+h3{
+
+font-size: 30;
+
+}
