@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS</title>
+    <!-- Links -->
+
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
+</head>
+<header>
+    <div class="col-lg-1 text-center">
+        <a href="#portfolioModal" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <center>
+                <img img id="rock" height=50px width=50px src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png"></img>
+            </center>
+        </a>
+    </div>
+    <div class="col-lg-11 text-center">
+        <h1>
+            <center>Rock Paper Scissors</center>
+        </h1>
+    </div>
+</header>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="#body" onclick="roll('rock')" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <center>
+                    <img img id="rock" height=200px width=200px src="http://designingflicks.com/images/rock-clipart-1.png" class="img-responsive"
+                        alt="rock"> </center>
+            </a>
+        </div>
+
+
+        <div class="col-sm-4">
+            <a href="#body" onclick="roll('paper')" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <center><img id="paper" height=200px width=200px src="http://diysolarpanelsv.com/images/blank-newspaper-clipart-no-background-18.png"></img>
+                </center>
+            </a>
+        </div>
+
+
+        <div class="col-sm-4">
+            <a href="#body" onclick="roll('scissor')" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <center><img id="scissor" height=200px width=200px src="http://cliparting.com/wp-content/uploads/2016/07/Hair-scissors-clip-art-free-clipart-images.png"></img>
+                </center>
+
+            </a>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="userContainer">
+                <form>
+                    <div class="textContainer">
+                        <div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="GObutton">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="allMessages">
+        <font size="12"></font>
+    </div>
+    <div class="results">
+        <font size="6"></font>
+    </div>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAhLJRebN0qX_F91DeO4X_Rocl53vz7YLw",
+            authDomain: "firemessage-b3f7d.firebaseapp.com",
+            databaseURL: "https://firemessage-b3f7d.firebaseio.com",
+            projectId: "firemessage-b3f7d",
+            storageBucket: "",
+            messagingSenderId: "1049540537347"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
